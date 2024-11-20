@@ -62,10 +62,7 @@ async function main() {
 
   console.log();
 
-  const githubLink = link(
-    "btw its awesome -> ",
-    "https://github.com/Sumanyu301"
-  );
+  const githubLink = link("Link -> ", "https://github.com/Sumanyu301");
   const websiteLInk = link("Coolest thing -> ", "");
   console.log(`NAME    `.green + " - " + "Sumanyu Sharma".cyan);
   console.log(`STATUS  `.green + " - " + "Student".cyan);
@@ -85,7 +82,7 @@ async function main() {
   printSkill(["C++", "C", "JavaScript", "TypeScript"], "LANGUAGES   ");
   printSkill(["React", "NextJs"], "FRAMEWORKS  ");
   printSkill(
-    ["Express", "Nodejs", "WebSocket", "Prisma", "Redis", "Hono"],
+    ["Express", "Nodejs", "WebSocket", "Prisma", "Redis", "WebRTC"],
     "TECHNOLOGIES"
   );
   printSkill(["MongoDb", "PostgresSQL", "SQL"], "DATABASES   ");
@@ -101,7 +98,7 @@ async function main() {
 
   console.log();
   console.log(
-    "I am up for hire, ready to help your company get to next heights and ofc Thanks for checking out my cli!"
+    "I am up for hire, ready to help your company get to next heights and ofc Thanks for checking out my cli !"
       .magenta
   );
   console.log();
