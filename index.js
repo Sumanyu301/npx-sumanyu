@@ -64,10 +64,10 @@ async function main() {
 
   const githubLink = link(
     "btw its awesome -> ",
-    "https://github.com/VineeTagarwaL-code"
+    "https://github.com/Sumanyu301"
   );
-  const websiteLInk = link("Coolest thing -> ", "https://vineet.tech");
-  console.log(`NAME    `.green + " - " + "Vineet Agarwal".cyan);
+  const websiteLInk = link("Coolest thing -> ", "");
+  console.log(`NAME    `.green + " - " + "Sumanyu Sharma".cyan);
   console.log(`STATUS  `.green + " - " + "Student".cyan);
   console.log(`GITHUB  `.green + " - " + `${githubLink}`.cyan);
   console.log(`WEBSITE `.green + " - " + `${websiteLInk}`.cyan);
@@ -82,20 +82,14 @@ async function main() {
   );
 
   console.log();
+  printSkill(["C++", "C", "JavaScript", "TypeScript"], "LANGUAGES   ");
+  printSkill(["React", "NextJs"], "FRAMEWORKS  ");
   printSkill(
-    ["Java", "C", "Python", "TypeScript", "JavaScript"],
-    "LANGUAGES   "
-  );
-  printSkill(["React", "NextJs", "SpringBoot"], "FRAMEWORKS  ");
-  printSkill(
-    ["Express", "Nodejs", "WebSocket", "Prisma", "Redis"],
+    ["Express", "Nodejs", "WebSocket", "Prisma", "Redis", "Hono"],
     "TECHNOLOGIES"
   );
   printSkill(["MongoDb", "PostgresSQL", "SQL"], "DATABASES   ");
-  printSkill(
-    ["Docker", "Kubernetes", "Github Actions", "AWS", "AZURE"],
-    "DEVOPS      "
-  );
+  printSkill(["Docker", "Kubernetes", "Github Actions", "AWS"], "DEVOPS      ");
   printSkill(["GIT", "Github"], "Tools       ");
 
   console.log(
@@ -107,7 +101,7 @@ async function main() {
 
   console.log();
   console.log(
-    "Vineet is up for hire, ready to help your company get to next heights and ofc Thanks for checking out my cli!"
+    "I am up for hire, ready to help your company get to next heights and ofc Thanks for checking out my cli!"
       .magenta
   );
   console.log();
